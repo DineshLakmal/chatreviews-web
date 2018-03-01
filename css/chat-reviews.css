@@ -1,0 +1,77 @@
+body{
+  font-family: font-family: Verdana, Geneva, sans-serif !important;
+}
+.logo{
+   width: 55px;
+   float: left;
+   margin-right: 5px;
+}
+.l-sub{
+  font-size: 8px;
+}
+.f-left{
+	float: left;
+}
+.gif-banner{
+   margin-top: -125px !important;
+}
+.obj-list{
+   text-align: left;
+   list-style-type: none;
+   font-size: 18px;
+}
+.obj-list li{
+   margin-top: 25px;
+}
+.inforbar-fixed{
+  position: fixed;
+  z-index: 999;
+}
+.main-nav-fixed{
+   position: fixed;
+   margin-top: 32px;
+   z-index: 999;
+}
+/*---------------- start contact form-------------------------*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.form-box{
+   width: 630px;
+   float: left;
+   margin-right: 60px;
+}
+.info-box{
+   padding: 10px;
+   text-align: left;
+}
+/*.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}*/
+.team .overlay::after {
+    color: inherit;
+    background-color: rgba(0,0,0,.7);
+}
+/*---------------- end contact form --------------------------*/
